@@ -1,0 +1,135 @@
+.main {
+    display: flex;
+}
+
+h2 {
+    font-size: 14px;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+
+h3 {
+    font-size: 12px;
+    font-family: "Open Sans";
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+}
+
+.bold {
+    font-weight: bolder;
+    margin: 0;
+}
+
+.normal {
+    font-weight: lighter;
+    margin: 0;
+}
+
+.icon {
+    &-small {
+        font-size: 10px;
+        margin-right: 20px;
+        width: 10px;
+        height: 10px;
+    }
+    &-medium {
+        font-size: 20px;
+        margin-right: 20px;
+        width: 20px;
+        height: 20px;
+    }
+    &-big {
+        font-size: 35px;
+        margin: 0;
+        width: 35px;
+        height: 35px;
+    }
+}
+
+.red {
+    &-bg {
+        background-color: red;
+    }
+    &-col {
+        color: red;
+    }
+}
+
+.white {
+    &-bg {
+        background-color: white;
+    }
+    &-col {
+        color: white;
+    }
+}
+
+.orange {
+    &-bg {
+        background-color: orange;
+    }
+    &-col {
+        color: orange;
+    }
+}
+
+.purple {
+    &-bg {
+        background-color: purple;
+    }
+    &-col {
+        color: purple;
+    }
+}
+
+.green {
+    &-bg {
+        background-color: green;
+    }
+    &-col {
+        color: green;
+    }
+}
+
+.blue {
+    &-bg {
+        background-color: blue;
+    }
+    &-col {
+        color: blue;
+    }
+}
+
+.photo {
+    align-content: center;
+}
+
+.black-text {
+    color: #000000;
+    margin: 0px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.dot-black {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid #000000;
+    background-color: #000000;
+    margin-right: 5px;
+}
+
+.dot-white {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    margin-right: 5px;
+}

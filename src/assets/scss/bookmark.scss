@@ -1,0 +1,178 @@
+.bookmark {
+    display: inline-flex;
+    transform-origin: right top;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 0;
+    transform-origin: 98px 98px;
+}
+
+.inner-red {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 0 0 10px 10px;
+    padding: 10px 30px;
+    position: relative;
+    width: 129px;
+    text-align: center;
+}
+
+.inner-red:before,
+.inner-red:after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 50%;
+    position: absolute;
+}
+
+.inner-red:before {
+    left: -23px;
+    top: 0;
+    background: radial-gradient(circle at -10% 105%, transparent 70%, red 70%)
+}
+
+.inner-red:after {
+    right: -23px;
+    top: 0;
+    background: radial-gradient(circle at -10% 105%, transparent 70%, red 70%);
+    transform: scaleX(-1);
+}
+
+.inner-green {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 0 0 10px 10px;
+    padding: 10px 30px;
+    position: relative;
+    width: 129px;
+    text-align: center;
+}
+
+.inner-green:before,
+.inner-green:after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 50%;
+    position: absolute;
+}
+
+.inner-green:before {
+    left: -23px;
+    top: 0;
+    background: radial-gradient(circle at -10% 105%, transparent 70%, green 70%)
+}
+
+.inner-green:after {
+    right: -23px;
+    top: 0;
+    background: radial-gradient(circle at -10% 105%, transparent 70%, green 70%);
+    transform: scaleX(-1);
+}
+
+.inner-orange {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 0 0 10px 10px;
+    padding: 10px 30px;
+    position: relative;
+    width: 129px;
+    text-align: center;
+}
+
+.inner-orange:before,
+.inner-orange:after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 50%;
+    position: absolute;
+}
+
+.inner-orange:before {
+    left: -23px;
+    top: 0;
+    background: radial-gradient(circle at -10% 105%, transparent 70%, orange 70%)
+}
+
+.inner-orange:after {
+    right: -23px;
+    top: 0;
+    background: radial-gradient(circle at -10% 105%, transparent 70%, orange 70%);
+    transform: scaleX(-1);
+}
+
+.inner-purple {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 0 0 10px 10px;
+    padding: 10px 30px;
+    position: relative;
+    width: 129px;
+    text-align: center;
+}
+
+.inner-purple:before,
+.inner-purple:after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 50%;
+    position: absolute;
+}
+
+.inner-purple:before {
+    left: -23px;
+    top: 0;
+    background: radial-gradient(circle at -10% 105%, transparent 70%, purple 70%)
+}
+
+.inner-purple:after {
+    right: -23px;
+    top: 0;
+    background: radial-gradient(circle at -10% 105%, transparent 70%, purple 70%);
+    transform: scaleX(-1);
+}
+
+.inner-blue {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 0 0 10px 10px;
+    padding: 10px 30px;
+    position: relative;
+    width: 129px;
+    text-align: center;
+}
+
+.inner-blue:before,
+.inner-blue:after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 50%;
+    position: absolute;
+}
+
+.inner-blue:before {
+    left: -23px;
+    top: 0;
+    background: radial-gradient(circle at -10% 105%, transparent 70%, blue 70%)
+}
+
+.inner-blue:after {
+    right: -23px;
+    top: 0;
+    background: radial-gradient(circle at -10% 105%, transparent 70%, blue 70%);
+    transform: scaleX(-1);
+}

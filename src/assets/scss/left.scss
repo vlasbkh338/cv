@@ -1,0 +1,106 @@
+                .left {
+                    display: inline-block;
+                    box-sizing: border-box;
+                    &__container {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        width: 314px;
+                        background-color: #082239;
+                        box-sizing: border-box;
+                    }
+                    &__photo {
+                        display: flex;
+                        margin: auto;
+                        height: 206px;
+                        width: 206px;
+                        border-radius: 50%;
+                        border: 6px solid #ffffff;
+                        overflow: hidden;
+                        margin-top: 48px;
+                        margin-bottom: 52px;
+                    }
+                    &__hello {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: flex-start;
+                        height: 40px;
+                        width: 160px;
+                        background-color: #02172a;
+                        font-size: 20px;
+                        font-family: "Open Sans";
+                        color: #ffffff;
+                        margin-bottom: 20px;
+                    }
+                    &__hello:after {
+                        content: "";
+                        border-left: 10px solid transparent;
+                        border-right: 10px solid transparent;
+                        border-top: 20px solid #02172a;
+                        z-index: 500;
+                        position: relative;
+                        bottom: 7px;
+                        left: 64px;
+                    }
+                    &__bio {
+                        width: 226px;
+                        height: 52px;
+                        margin-bottom: 52px;
+                        text-align: center;
+                        &-title {
+                            display: flex;
+                            justify-content: center;
+                            font-size: 30px;
+                            font-family: "Open Sans";
+                            color: #ffffff;
+                            text-transform: uppercase;
+                            box-sizing: border-box;
+                        }
+                        &-subtitle {
+                            font-size: 15px;
+                            font-family: "Open Sans";
+                            color: #ffffff;
+                            font-weight: lighter
+                        }
+                    }
+                    &__title {
+                        display: flex;
+                        justify-content: flex-start;
+                        height: 54px;
+                        width: 314px;
+                        background-color: #02172a;
+                        box-sizing: border-box;
+                        padding: 20px 20px;
+                    }
+                    &__icon {
+                        margin-right: 30px;
+                        margin-left: 26px;
+                    }
+                    &__list {
+                        display: flex;
+                        flex-direction: column;
+                        background-color: #082239;
+                        color: #ffffff;
+                        margin: 37px 0;
+                    }
+                    &__item {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        margin-bottom: 4px;
+                        padding-left: 40px;
+                        align-items: left;
+                        width: 314px;
+                        box-sizing: border-box;
+                    }
+                }
+                
+                .photo {
+                    margin: 0px;
+                }
+                
+                // .hello {
+                //     text-align: center;
+                //     margin: 0;
+                // }

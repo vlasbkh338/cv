@@ -1,0 +1,59 @@
+{
+  "_from": "@types/slick-carousel@^1.6.34",
+  "_id": "@types/slick-carousel@1.6.34",
+  "_inBundle": false,
+  "_integrity": "sha512-LdsK0BLNYqe3uBuWCBwzGQVy+8g8LDe3u1XGlaOelrDD07cjJGVVoKBSyKieK4dmfqilmP+DJp7lNRaTI7rRAg==",
+  "_location": "/@types/slick-carousel",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@types/slick-carousel@^1.6.34",
+    "name": "@types/slick-carousel",
+    "escapedName": "@types%2fslick-carousel",
+    "scope": "@types",
+    "rawSpec": "^1.6.34",
+    "saveSpec": null,
+    "fetchSpec": "^1.6.34"
+  },
+  "_requiredBy": [
+    "/webpacktemplate"
+  ],
+  "_resolved": "https://registry.npmjs.org/@types/slick-carousel/-/slick-carousel-1.6.34.tgz",
+  "_shasum": "ac8aa7c3175070baca9477c353724542a8ed74f7",
+  "_spec": "@types/slick-carousel@^1.6.34",
+  "_where": "C:\\Users\\HP\\desktop\\cv\\node_modules\\webpacktemplate",
+  "bugs": {
+    "url": "https://github.com/DefinitelyTyped/DefinitelyTyped/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "John Gouigouix",
+      "url": "https://github.com/orchestra-ts/DefinitelyTyped/"
+    },
+    {
+      "name": "Hugo Alliaume",
+      "url": "https://github.com/Kocal"
+    }
+  ],
+  "dependencies": {
+    "@types/jquery": "*"
+  },
+  "deprecated": false,
+  "description": "TypeScript definitions for stick",
+  "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped#readme",
+  "license": "MIT",
+  "main": "",
+  "name": "@types/slick-carousel",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+    "directory": "types/slick-carousel"
+  },
+  "scripts": {},
+  "typeScriptVersion": "2.8",
+  "types": "index.d.ts",
+  "typesPublisherContentHash": "bc791570a5e52b2b47299a5696b8bf3fc3631fc238774c9ffcc071ab385de8b3",
+  "version": "1.6.34"
+}
